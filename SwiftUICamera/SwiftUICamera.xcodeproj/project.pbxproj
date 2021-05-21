@@ -11,8 +11,6 @@
 		6AAC37DA2632F13000B96CDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC37D92632F13000B96CDC /* ContentView.swift */; };
 		6AAC37DC2632F13200B96CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAC37DB2632F13200B96CDC /* Assets.xcassets */; };
 		6AAC37DF2632F13200B96CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAC37DE2632F13200B96CDC /* Preview Assets.xcassets */; };
-		6AAC37EA2632F13200B96CDC /* SwiftUICameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC37E92632F13200B96CDC /* SwiftUICameraTests.swift */; };
-		6AAC37F52632F13200B96CDC /* SwiftUICameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC37F42632F13200B96CDC /* SwiftUICameraUITests.swift */; };
 		6AAC380E2632FDA900B96CDC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC380D2632FDA900B96CDC /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +39,7 @@
 		6AAC37DE2632F13200B96CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6AAC37E02632F13200B96CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAC37E52632F13200B96CDC /* SwiftUICameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AAC37E92632F13200B96CDC /* SwiftUICameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICameraTests.swift; sourceTree = "<group>"; };
-		6AAC37EB2632F13200B96CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAC37F02632F13200B96CDC /* SwiftUICameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AAC37F42632F13200B96CDC /* SwiftUICameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICameraUITests.swift; sourceTree = "<group>"; };
-		6AAC37F62632F13200B96CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAC380D2632FDA900B96CDC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				6AAC37D62632F13000B96CDC /* SwiftUICamera */,
-				6AAC37E82632F13200B96CDC /* SwiftUICameraTests */,
-				6AAC37F32632F13200B96CDC /* SwiftUICameraUITests */,
 				6AAC37D52632F13000B96CDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,24 +105,6 @@
 				6AAC37DE2632F13200B96CDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6AAC37E82632F13200B96CDC /* SwiftUICameraTests */ = {
-			isa = PBXGroup;
-			children = (
-				6AAC37E92632F13200B96CDC /* SwiftUICameraTests.swift */,
-				6AAC37EB2632F13200B96CDC /* Info.plist */,
-			);
-			path = SwiftUICameraTests;
-			sourceTree = "<group>";
-		};
-		6AAC37F32632F13200B96CDC /* SwiftUICameraUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6AAC37F42632F13200B96CDC /* SwiftUICameraUITests.swift */,
-				6AAC37F62632F13200B96CDC /* Info.plist */,
-			);
-			path = SwiftUICameraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAC37EA2632F13200B96CDC /* SwiftUICameraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAC37F52632F13200B96CDC /* SwiftUICameraUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
