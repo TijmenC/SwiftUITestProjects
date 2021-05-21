@@ -37,7 +37,7 @@ struct ContentView: View {
                                 ])
                 }
             }
-            .navigationTitle("Sup")
+            .navigationTitle("Choose an Image!")
         }.sheet(isPresented: $showImagePicker, content: {
             ImagePicker(image: self.$image, isShown: self.$showImagePicker, sourceType: self.sourceType)
         })
